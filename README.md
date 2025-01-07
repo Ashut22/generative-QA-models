@@ -1,40 +1,63 @@
 # generative-QA-models
-Implementing generativeQAmodels  toaccuratelyextractspecificpatientdetailsfrommedicaltranscriptionsensuringahighexactmatchrate
-Generative QA Model for Medical Transcription Analysis
-This project focuses on building Generative Question Answering (QA) Models to extract specific patient details from medical transcriptions with high accuracy and exact match rates. It provides a structured learning path that gradually introduces the fundamentals of Generative AI and progresses towards hands-on implementation with real-world medical datasets.
+# Generative QA Model for Medical Transcription Analysis
 
-Features
-Automated Information Extraction: Extract patient details like age, complaints, gender, reasons for consultation, and symptoms from medical transcriptions.
-High-Accuracy Models: Utilizes pretrained models like BioBERT and BERT-Large fine-tuned on medical QA datasets.
-F1 Score Evaluation: Ensures performance assessment by calculating field-specific and average F1 scores for exact match accuracy.
-Real-World Dataset: Works with datasets containing detailed medical transcription data for practical learning.
-Key Objectives
-Learn Generative AI Fundamentals:
+This project focuses on implementing Generative Question Answering (QA) models to accurately extract specific patient details from medical transcriptions, ensuring high exact match rates and robust performance evaluation.
 
-Explore concepts like tokenization, transformers, and fine-tuning.
-Understand how pretrained models can be applied to domain-specific problems.
-Develop and Evaluate QA Models:
+## Features
 
-Use models like BioBERT and BERT for extracting structured patient information.
-Evaluate accuracy using token-level F1 scores.
-Gain Practical Experience:
+- **Automated Information Extraction**: Extracts key patient details, including:
+  - Age
+  - Complaints
+  - Gender
+  - Reasons for consultation
+  - Symptoms
+- **High-Accuracy Models**: Leverages pretrained models like **BioBERT** and **BERT-Large**, fine-tuned on medical QA datasets.
+- **F1 Score Evaluation**: Employs token-level and field-specific F1 scores to assess accuracy.
+- **Real-World Dataset**: Utilizes detailed medical transcription data to ensure practical applicability.
 
-Work with real-world datasets containing medical transcription data.
-Implement and debug pipelines for medical QA tasks.
-Project Components
-Model Training and Inference:
+---
 
-Fine-tuned BioBERT and BERT models for QA tasks.
-Generative QA pipeline to extract structured information.
-Evaluation:
+## Key Objectives
 
-Field-specific F1 score calculation for accuracy assessment.
-Average F1 score computation across multiple samples.
-Hands-on Learning:
+### 1. Learn Generative AI Fundamentals
+- Understand concepts like tokenization, transformers, and fine-tuning.
+- Explore the application of pretrained models to domain-specific problems.
 
-Gradual project progression to ensure a comprehensive learning experience.
-Work with real datasets to implement practical solutions.
-Getting Started
-Prerequisites
-Python 3.8+
-Libraries: transformers, datasets, tensorflow, seqeval, numpy, pandas
+### 2. Develop and Evaluate QA Models
+- Fine-tune models like **BioBERT** and **BERT** for extracting structured patient information.
+- Assess performance using token-level and field-specific F1 scores.
+
+### 3. Gain Practical Experience
+- Work with real-world datasets containing medical transcription data.
+- Debug and optimize pipelines for medical QA tasks.
+
+---
+
+## Project Components
+
+### Model Training and Inference
+- Fine-tuned **BioBERT** and **BERT** models tailored for QA tasks.
+- Implementation of a **Generative QA pipeline** for structured information extraction.
+
+### Evaluation
+- Calculation of **field-specific F1 scores** to assess accuracy.
+- Computation of **average F1 scores** across multiple samples.
+
+### Hands-On Learning
+- A structured learning approach to ensure a comprehensive understanding of generative AI.
+- Practical implementation using real-world medical transcription datasets.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- **Python**: 3.8+
+- Required Libraries: 
+  - `transformers`
+  - `datasets`
+  - `tensorflow`
+  - `seqeval`
+  - `numpy`
+  - `pandas`
+
