@@ -1,0 +1,2 @@
+# generative-QA-models
+ImplementinggenerativeQAmodels  toaccuratelyextractspecificpatientdetailsfrommedicaltranscriptionsensuringahighexactmatchrate
