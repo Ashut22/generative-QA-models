@@ -1,0 +1,260 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Does the patient have any complaints?",
+              "id": 625466,
+              "answers": [
+                {
+                  "answer_id": 677083,
+                  "document_id": 1298896,
+                  "question_id": 625466,
+                  "text": "Urinary retention",
+                  "answer_start": 19,
+                  "answer_end": 36,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the reason for this consultation?",
+              "id": 625467,
+              "answers": [
+                {
+                  "answer_id": 677085,
+                  "document_id": 1298896,
+                  "question_id": 625467,
+                  "text": "prescription",
+                  "answer_start": 3371,
+                  "answer_end": 3383,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What other symptoms does the patient have?",
+              "id": 625468,
+              "answers": [
+                {
+                  "answer_id": 677086,
+                  "document_id": 1298896,
+                  "question_id": 625468,
+                  "text": "symptoms of benign prostatic hypertrophy",
+                  "answer_start": 2870,
+                  "answer_end": 2910,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How old is the patient?",
+              "id": 625464,
+              "answers": [
+                {
+                  "answer_id": 677084,
+                  "document_id": 1298896,
+                  "question_id": 625464,
+                  "text": "66",
+                  "answer_start": 78,
+                  "answer_end": 80,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "CHIEF COMPLAINT:,  Urinary retention.,HISTORY OF PRESENT ILLNESS: , This is a 66-year-old gentleman status post deceased donor kidney transplant in 12/07, who has had recurrent urinary retention issues since that time.  Most recently, he was hospitalized on 02/04/08 for acute renal insufficiency, which was probably secondary to dehydration.  He was seen by urology again at this visit for urinary retention.  He had been seen by urology during a previous hospitalization and he passed his voiding trial at the time of his stent removal on 01/22/08.  Cystoscopy showed at that time obstructive BPH.  He was started on Flomax at the time of discharge from the hospital.  During the most recent readmission on 02/04/08, he went back into urinary retention and he had had a Foley placed at the outside hospital.,REVIEW OF SYSTEMS:,  Positive for blurred vision, nasal congestion, and occasional constipation.  Denies chest pain, shortness of breath or any rashes or lesions.  All other systems were reviewed and found to be negative.,PAST MEDICAL HISTORY:,1.  End-stage renal disease, now status post deceased donor kidney transplant in 12/07.,2.  Hypertension.,3.  History of nephrolithiasis.,4.  Gout.,5.  BPH.,6.  DJD.,PAST SURGICAL HISTORY:,1.  Deceased donor kidney transplant in 12/07.,2.  Left forearm and left upper arm fistula placements.,FAMILY HISTORY:  ,Significant for mother with an unknown type of cancer, possibly colon cancer or lung and prostate problems on his father side of the family.  He does not know whether his father side of the family had any history of prostate cancer.,HOME MEDICATIONS:,1.  Norvasc.,2.  Toprol 50 mg.,3.  Clonidine 0.2 mg.,4.  Hydralazine.,5.  Flomax.,6.  Allopurinol.,7.  Sodium bicarbonate.,8.  Oxybutynin.,9.  Coumadin.,10.  Aspirin.,11.  Insulin 70/30.,12.  Omeprazole.,13.  Rapamune.,14.  CellCept.,15.  Prednisone.,16.  Ganciclovir.,17.  Nystatin swish and swallow.,18.  Dapsone.,19.  Finasteride.,ALLERGIES:,  No known drug allergies.,PHYSICAL EXAMINATION:,GENERAL:  This is a well-developed, well-nourished male, in no acute distress.  VITAL SIGNS:  Temperature 98, blood pressure 129/72, pulse 96, and weight 175.4 pounds.  LUNGS:  Clear to auscultation bilaterally.  CARDIOVASCULAR:  Regular rate and rhythm with a 3/6 systolic murmur.  ABDOMEN:  Right lower quadrant incision site scar well healed.  Nontender to palpation.  Liver and spleen not enlarged.  No hernias appreciated.  PENIS:  Normal male genitalia.  No lesions appreciated on the penis.  Previous DRE showed the prostate of approximately 40 grams and no nodules.  Foley in place and draining clear urine.,The patient underwent fill and pull study, in which his bladder tolerated 120 ml of sterile water passively filling his bladder.  He spontaneously voided without the Foley 110 mL.,ASSESSMENT AND PLAN:  ,This is a 66-year-old male with signs and symptoms of benign prostatic hypertrophy, who has had recurrent urinary retention since the kidney transplant in 12/07.  He passed his fill and pull study and was thought to self-catheterize in the event that he does incur urinary retention again.  We discussed with Mr. Barker that he has a urologist closer to his home and he lives approximately 3 hours away; however, he desires to continue follow up with the urology clinic at MCG and has been set up for followup in 6 weeks.  He was also given a prescription for 6 months of Flomax and Proscar.  He did not have a PSA drawn today as he had a catheter in place, therefore his PSA could be falsely elevated.  He will have PSA level drawn either just before his visit for followup.",
+          "document_id": 1298896
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Does the patient have any complaints?",
+              "id": 625466,
+              "answers": [
+                {
+                  "answer_id": 677094,
+                  "document_id": 1298898,
+                  "question_id": 625466,
+                  "text": " allergy ",
+                  "answer_start": 148,
+                  "answer_end": 157,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the reason for this consultation?",
+              "id": 625467,
+              "answers": [
+                {
+                  "answer_id": 677093,
+                  "document_id": 1298898,
+                  "question_id": 625467,
+                  "text": "further allergy evaluation and treatment",
+                  "answer_start": 141,
+                  "answer_end": 181,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What other symptoms does the patient have?",
+              "id": 625468,
+              "answers": [],
+              "is_impossible": true
+            },
+            {
+              "question": "How old is the patient?",
+              "id": 625464,
+              "answers": [
+                {
+                  "answer_id": 677091,
+                  "document_id": 1298898,
+                  "question_id": 625464,
+                  "text": "34",
+                  "answer_start": 13,
+                  "answer_end": 15,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "HISTORY: , A 34-year-old male presents today self-referred at the recommendation of Emergency Room physicians and his nephrologist to pursue further allergy evaluation and treatment.  Please refer to chart for history and physical, as well as the medical records regarding his allergic reaction treatment at ABC Medical Center for further details and studies.  In summary, the patient had an acute event of perioral swelling, etiology uncertain, occurring on 05/03/2008 requiring transfer from ABC Medical Center to XYZ Medical Center due to a history of renal failure requiring dialysis and he was admitted and treated and felt that his allergy reaction was to Keflex, which was being used to treat a skin cellulitis dialysis shunt infection.  In summary, the patient states he has some problems with tolerating grass allergies, environmental and inhalant allergies occasionally, but has never had anaphylactic or angioedema reactions.  He currently is not taking any medication for allergies.  He is taking atenolol for blood pressure control.  No further problems have been noted upon his discharge and treatment, which included corticosteroid therapy and antihistamine therapy and monitoring.,PAST MEDICAL HISTORY:,  History of urticaria, history of renal failure with hypertension possible source of renal failure, history of dialysis times 2 years and a history of hypertension.,PAST SURGICAL HISTORY:,  PermCath insertion times 3 and peritoneal dialysis.,FAMILY HISTORY: , Strong for heart disease, carcinoma, and a history of food allergies, and there is also a history of hypertension.,CURRENT MEDICATIONS: , Atenolol, sodium bicarbonate, Lovaza, and Dialyvite.,ALLERGIES: , Heparin causing thrombocytopenia.,SOCIAL HISTORY: , Denies tobacco or alcohol use.,PHYSICAL EXAMINATION:  ,VITAL SIGNS:  Age 34, blood pressure 128/78, pulse 70, temperature is 97.8, weight is 207 pounds, and height is 5 feet 7 inches.,GENERAL:  The patient is healthy appearing; alert and oriented to person, place and time; responds appropriately; in no acute distress.,HEAD:  Normocephalic.  No masses or lesions noted.,FACE:  No facial tenderness or asymmetry noted.,EYES:  Pupils are equal, round and reactive to light and accommodation bilaterally.  Extraocular movements are intact bilaterally.,EARS:  The tympanic membranes are intact bilaterally with a good light reflex.  The external auditory canals are clear with no lesions or masses noted.  Weber and Rinne tests are within normal limits.,NOSE:  The nasal cavities are patent bilaterally.  The nasal septum is midline.  There are no nasal discharges.  No masses or lesions noted.,THROAT:  The oral mucosa appears healthy.  Dental hygiene is maintained well.  No oropharyngeal masses or lesions noted.  No postnasal drip noted.,NECK:  The neck is supple with no adenopathy or masses palpated.  The trachea is midline.  The thyroid gland is of normal size with no nodules.,NEUROLOGIC:  Facial nerve is intact bilaterally.  The remaining cranial nerves are intact without focal deficit.,LUNGS:  Clear to auscultation bilaterally.  No wheeze noted.,HEART:  Regular rate and rhythm.  No murmur noted.,IMPRESSION:  ,1.  Acute allergic reaction, etiology uncertain, however, suspicious for Keflex.,2.  Renal failure requiring dialysis.,3.  Hypertension.,RECOMMENDATIONS:  ,RAST allergy testing for both food and environmental allergies was performed, and we will get the results back to the patient with further recommendations to follow.  If there is any specific food or inhalant allergen that is found to be quite high on the sensitivity scale, we would probably recommend the patient to avoid the offending agent to hold off on any further reactions.  At this point, I would recommend the patient stopping any further use of cephalosporin antibiotics, which may be the cause of his allergic reaction, and I would consider this an allergy.  Being on atenolol, the patient has a more difficult time treating acute anaphylaxis, but I do think this is medically necessary at this time and hopefully we can find specific causes for his allergic reactions.  An EpiPen was also prescribed in the event of acute angioedema or allergic reaction or sensation of impending allergic reaction and he is aware he needs to proceed directly to the emergency room for further evaluation and treatment recommendations after administration of an EpiPen.",
+          "document_id": 1298898
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Does the patient have any complaints?",
+              "id": 625466,
+              "answers": [
+                {
+                  "answer_id": 677087,
+                  "document_id": 1298897,
+                  "question_id": 625466,
+                  "text": "Morbid obesity",
+                  "answer_start": 23,
+                  "answer_end": 37,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the reason for this consultation?",
+              "id": 625467,
+              "answers": [
+                {
+                  "answer_id": 677089,
+                  "document_id": 1298897,
+                  "question_id": 625467,
+                  "text": "gastric bypass",
+                  "answer_start": 128,
+                  "answer_end": 142,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What other symptoms does the patient have?",
+              "id": 625468,
+              "answers": [],
+              "is_impossible": true
+            },
+            {
+              "question": "How old is the patient?",
+              "id": 625464,
+              "answers": [
+                {
+                  "answer_id": 677088,
+                  "document_id": 1298897,
+                  "question_id": 625464,
+                  "text": "27",
+                  "answer_start": 237,
+                  "answer_end": 239,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "ADMISSION DIAGNOSIS:,  Morbid obesity.  BMI is 51.,DISCHARGE DIAGNOSIS: , Morbid obesity.  BMI is 51.,PROCEDURE: , Laparoscopic gastric bypass.,SERVICE: , Surgery.,CONSULT: , Anesthesia and pain.,HISTORY OF PRESENT ILLNESS: , Ms. A is a 27-year-old woman, who suffered from morbid obesity for many years.  She has made multiple attempts at nonsurgical weight loss without success.  She underwent a preoperative workup and clearance for gastric bypass and was found to be an appropriate candidate.  She underwent her procedure.,HOSPITAL COURSE: , Ms. A underwent her procedure.  She tolerated without difficulty.  She was admitted to the floor post procedure.  Her postoperative course has been unremarkable.  On postoperative day 1, she was hemodynamically stable, afebrile, normal labs, and she was started on a clear liquid diet, which she has tolerated without difficulty.  She has ambulated and had no complaints.  Today, on postoperative day 2, the patient continues to do well.  Pain controlled with p.o. pain medicine, ambulating without difficulty, tolerating a liquid diet.  At this point, it is felt that she is stable for discharge.  Her drain was discontinued.,DISCHARGE INSTRUCTIONS:,  Liquid diet x1 week, then advance to pureed and soft as tolerated.  No heavy lifting, greater than 10 pounds x4 weeks.  The patient is instructed to not engage in any strenuous activity, but maintain mobility.  No driving for 1 to 2 weeks.  She must be able to stop in an emergency and be off narcotic pain medicine.  She may shower.  She needs to keep her wounds clean and dry.  She needs to follow up in my office in 1 week for postoperative evaluation.  She is instructed to call for any problems of shortness of breath, chest pain, calf pain, temperature greater than 101.5, any redness, swelling, or foul smelling drainage from her wounds, intractable nausea, vomiting, and abdominal pain.  She is instructed just to resume her discharge medications.,DISCHARGE MEDICATIONS:,  She was given a scripts for Lortab Elixir, Flexeril, ursodiol, and Colace.",
+          "document_id": 1298897
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Does the patient have any complaints?",
+              "id": 625466,
+              "answers": [
+                {
+                  "answer_id": 677097,
+                  "document_id": 1298899,
+                  "question_id": 625466,
+                  "text": "adenocarcinoma ",
+                  "answer_start": 69,
+                  "answer_end": 84,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is the reason for this consultation?",
+              "id": 625467,
+              "answers": [],
+              "is_impossible": true
+            },
+            {
+              "question": "What other symptoms does the patient have?",
+              "id": 625468,
+              "answers": [],
+              "is_impossible": true
+            },
+            {
+              "question": "How old is the patient?",
+              "id": 625464,
+              "answers": [
+                {
+                  "answer_id": 677096,
+                  "document_id": 1298899,
+                  "question_id": 625464,
+                  "text": " 68",
+                  "answer_start": 21,
+                  "answer_end": 24,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "CLINICAL HISTORY: , A 68-year-old white male with recently diagnosed adenocarcinoma by sputum cytology.  An abnormal chest radiograph shows right middle lobe infiltrate and collapse.  Patient needs staging CT of chest with contrast.  Right sided supraclavicular and lower anterior cervical adenopathy noted on physical exam.,TECHNIQUE: , Multiple transaxial images utilized in 10 mm sections were obtained through the chest.  Intravenous contrast was administered.,FINDINGS: , There is a large 3 x 4 cm lymph node seen in the right supraclavicular region.  There is a large right paratracheal lymph node best appreciated on image #16 which measures 3 x 2 cm.  A subcarinal lymph node is enlarged also.  It measures 6 x 2 cm.  Multiple pulmonary nodules are seen along the posterior border of the visceral as well as parietal pleura.  There is a pleural mass seen within the anterior sulcus of the right hemithorax as well as the right crus of the diaphragm.  There is also a soft tissue density best appreciated on image #36 adjacent to the inferior aspect of the right lobe of the liver which most likely also represents metastatic deposit.  The liver parenchyma is normal without evidence of any dominant masses.  The right kidney demonstrates a solitary cyst in the mid pole of the right kidney.,IMPRESSION:,1.  Greater than twenty pulmonary nodules demonstrated on the right side to include pulmonary nodules within the parietal as well as various visceral pleura with adjacent consolidation most likely representing pulmonary neoplasm.,2.  Extensive mediastinal adenopathy as described above.,3.  No lesion seen within the left lung at this time.,4.  Supraclavicular adenopathy.",
+          "document_id": 1298899
+        }
+      ]
+    }
+  ]
+}
