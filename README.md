@@ -33,3 +33,13 @@ The workflow covers:
 3. Generate predictions on test data using:  
    ```python
    predictions, raw_outputs = model.predict(test_data)
+## Requirements
+- Python 3.x
+- Hugging Face Transformers
+- TensorFlow (for GAN)
+- PyTorch
+- NumPy
+- Pandas
+- Matplotlib
+
+
