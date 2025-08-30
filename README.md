@@ -1,63 +1,35 @@
-# generative-QA-models
-# Generative QA Model for Medical Transcription Analysis
+# Question Answering with DistilBERT on Custom Medical QA Data  
 
-This project focuses on implementing Generative Question Answering (QA) models to accurately extract specific patient details from medical transcriptions, ensuring high exact match rates and robust performance evaluation.
+##  Project Overview  
+This project fine-tunes a **DistilBERT-based Question Answering (QA) model** on a custom dataset in **SQuAD format**.  
+The dataset is derived from medical-style QA contexts, where the model is trained to predict answers to patient-related questions.  
 
-## Features
-
-- **Automated Information Extraction**: Extracts key patient details, including:
-  - Age
-  - Complaints
-  - Gender
-  - Reasons for consultation
-  - Symptoms
-- **High-Accuracy Models**: Leverages pretrained models like **BioBERT** and **BERT-Large**, fine-tuned on medical QA datasets.
-- **F1 Score Evaluation**: Employs token-level and field-specific F1 scores to assess accuracy.
-- **Real-World Dataset**: Utilizes detailed medical transcription data to ensure practical applicability.
+The workflow covers:  
+- Preprocessing **JSON data** into DataFrames.  
+- Converting data into **SQuAD-compatible format**.  
+- Fine-tuning **DistilBERT** using the **SimpleTransformers library**.  
+- Evaluating performance with **Exact Match (EM)** and **F1 Score**.  
 
 ---
 
-## Key Objectives
-
-### 1. Learn Generative AI Fundamentals
-- Understand concepts like tokenization, transformers, and fine-tuning.
-- Explore the application of pretrained models to domain-specific problems.
-
-### 2. Develop and Evaluate QA Models
-- Fine-tune models like **BioBERT** and **BERT** for extracting structured patient information.
-- Assess performance using token-level and field-specific F1 scores.
-
-### 3. Gain Practical Experience
-- Work with real-world datasets containing medical transcription data.
-- Debug and optimize pipelines for medical QA tasks.
+##  Tech Stack  
+- **Python, Pandas, NumPy** → Data preprocessing  
+- **PyTorch** → Model training backend  
+- **Transformers (HuggingFace)** → Tokenization  
+- **SimpleTransformers** → High-level QA model training  
+- **Evaluate (HuggingFace)** → Computing SQuAD metrics  
 
 ---
 
-## Project Components
-
-### Model Training and Inference
-- Fine-tuned **BioBERT** and **BERT** models tailored for QA tasks.
-- Implementation of a **Generative QA pipeline** for structured information extraction.
-
-### Evaluation
-- Calculation of **field-specific F1 scores** to assess accuracy.
-- Computation of **average F1 scores** across multiple samples.
-
-### Hands-On Learning
-- A structured learning approach to ensure a comprehensive understanding of generative AI.
-- Practical implementation using real-world medical transcription datasets.
+##  Dataset  
+- Input: `train.json` (SQuAD-like format with `context`, `question`, and `answers`)  
+- Preprocessing: Extracts **question, context, and answer** into a Pandas DataFrame and converts them into SQuAD format.  
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- **Python**: 3.8+
-- Required Libraries: 
-  - `transformers`
-  - `datasets`
-  - `tensorflow`
-  - `seqeval`
-  - `numpy`
-  - `pandas`
-
+##  Training & Prediction  
+1. Load and preprocess data (`train_data`, `test_data`).  
+2. Train a **DistilBERT QA model** on training data.  
+3. Generate predictions on test data using:  
+   ```python
+   predictions, raw_outputs = model.predict(test_data)
